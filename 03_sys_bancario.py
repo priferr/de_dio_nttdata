@@ -1,3 +1,5 @@
+#inserir novas opções, usar dicionário e checagem em lista
+
 menu = """"
 [1] Depósito
 [2] Saque
