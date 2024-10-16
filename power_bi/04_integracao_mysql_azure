@@ -1,0 +1,42 @@
+##Respostas para o Desafio do Módulo 3
+
+#1. Criação de uma instância no Azure para MySQL
+Azure Portal: Acessando o portal do Azure e procurando pelo serviço MySQL.
+Configuração: Definido o nome do servidor, região, plano de serviço e configurações de rede.
+Criação do banco de dados: Após a criação do servidor, criado um novo banco de dados e importado o script SQL disponível no GitHub.
+
+#2. Criar o Banco de dados com base disponível no GitHub
+Download do script: Baixado o script SQL do GitHub.
+Execução do script: Conectado ao banco de dados recém-criado no Azure usando um cliente SQL e executado o script.
+
+#3. Integração do Power BI com MySQL no Azure
+Conectar: No Power BI Desktop, "Obter dados" e escolhido "MySQL Database".
+Credenciais: Informei as credenciais de acesso ao banco de dados.
+Esquema: Selecionei as tabelas pra importar.
+
+#4. Verificação de problemas na base e transformação dos dados
+- Editor de Power Query: Utilizei o editor de Power Query para realizar as transformações.
+- Verificar cabeçalhos e tipos de dados: Verifiquei se os nomes das colunas estão corretos e se os tipos de dados estão adequados.
+- Modificar valores monetários: Utilizei a função "Mudar tipo" para converter os valores monetários para o tipo "Decimal" com precisão.
+- Remoção: Utilize a função "Excluir linhas" para remover linhas com valores nulos em colunas importantes.
+- Preenchimento: Utilize a função "Preencher" para preencher valores nulos com um valor padrão (ex: 0, "Não informado") ou com valores calculados (ex: média, mediana).
+- Verificar gerentes: Contei o número de linhas onde "Super_ssn" é nulo e comparei com o total de funcionários.
+- Agrupamento: Agrupei os dados por departamento e contei o número de gerentes (onde "Super_ssn" é nulo).
+- Preencher lacunas de gerentes: Criei uma tabela com os dados dos gerentes e fiz um merge com a tabela de funcionários.
+- Agrupamento: Agrupei os dados por projeto e calculei o total de horas.
+- Análise de outliers: Identifiquei projetos com um número excessivo ou insuficiente de horas.
+- Dividir coluna: Utilizei a função "Dividir coluna" para separar colunas que continham múltiplas informações (ex: nome completo em nome e sobrenome).
+- Mesclar consultas: Merge - Utilizei a função "Merge" para combinar as tabelas "employees" e "departamentos" com base em uma chave comum (ex: departamento_id).
+- Tipo de junção: Utilizei um left outer join para garantir que todos os funcionários fossem incluídos, mesmo que não tenham um departamento associado.
+- Eliminar colunas: Excluir colunas - Utilizei a função "Excluir colunas" para remover as colunas que não serão utilizadas nas análises.
+- Agrupar colaboradores por gerente: Agrupei os dados por "Super_ssn" e contei o número de funcionários em cada grupo.
+- Limpar e transformar: Continuei refinando os dados até obter um modelo de dados limpo e consistente para a criação de relatórios.
+- Agrupamento: Utilizei a função "Agrupar por" no Power Query.
+- Contagem: Contei o número de funcionários em cada grupo.
+- Eliminei as colunas desnecessárias
+- Excluí colunas: Utilizei a função "Excluir colunas" no Power Query.
+
+#   Mesclar ou Atribuir
+- Mesclar une valores de duas colunas em uma só
+- Atribuir define um valor fixo para a coluna, como uma forma de padronizar
+- Escolha: nesse caso ficaríamos com mesclar pra manter os dados originais e uma base mais rica de informações
