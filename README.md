@@ -1,7 +1,9 @@
 <p align="center">
-<img src="https://assets.dio.me/E5KMSxmK8QAcAO9SDazfzGNWHnaMzQE-Xi_V8lxXX9I/f:webp/h:120/q:80/L3RyYWNrcy8yYTNhMmQyYi03ZGU3LTQ1N2MtYjRkZi1kY2QzMjdlYWU5ZWIucG5n">
+<img src="https://github.com/user-attachments/assets/1c0a9991-9a24-4072-a428-b9c1627cceb3">
 </p>
-## Engenharia de Dados com Python | Dio | NTT Data
+
+
+#  Engenharia de Dados com Python | Dio | NTT Data
 
 38 cursos  
 12 desafios de projeto  
@@ -35,3 +37,7 @@ Modelagem de Dados com Power BI
 </br>
 Data Analytics & Storytelling com Power BI
 6 atividades  
+
+<p align="center">
+<![Captura de Tela 2024-10-31 às 14 07 29](https://github.com/user-attachments/assets/99ff7e8d-6f74-428a-9f44-91c2b090384a)>
+</p>
