@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://assets.dio.me/E5KMSxmK8QAcAO9SDazfzGNWHnaMzQE-Xi_V8lxXX9I/f:webp/h:120/q:80/L3RyYWNrcy8yYTNhMmQyYi03ZGU3LTQ1N2MtYjRkZi1kY2QzMjdlYWU5ZWIucG5n">
+</p>
 ## Engenharia de Dados com Python | Dio | NTT Data
 
 38 cursos  
